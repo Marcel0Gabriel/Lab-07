@@ -1,0 +1,34 @@
+Conclusiones:
+
+1.Para guardar los valores llenados en los campos "nombre"; "email";"contraseña"
+se debe poner el método por le cúal llamarlos y reservarlos en variables con código php.
+
+2.No puedes utilizar php dentro de un index de extensión html.
+
+3.La única forma de trabajar con código dentro de una estructura de html además de 
+ser estilizada con CSS es creando un index.php en el cuál se estructure el html y se
+linkee el css de manera tradicional.
+
+4.Los php guardan entre sí las variables sin necesidad de hacer un llamado al php con su ruta.
+
+5.PHP también puede comunicarse con mysql haciendo una conexión por la cuál le pasemos los datos
+, estos serán registrados, sin embargo no fue realizado en este laboratorio.
+
+
+Observaciones:
+
+1.Las variables de PHP se pueden reutilizar en otro archivo PHP, sin necesidad de hacer
+llamados, es como si estuvieran interconectados.
+
+2.Para poder redirigir a una página debemos utilizar include 'url' , así luego de realizar 
+una ejecución, PHP nos redigirá a la página elegida.
+
+3.Un php con estructura html funciona igual que un html, es por eso que pudimos
+linkear nuestro css al index.php.
+
+4.Si queremos aplicarle estilos a un "echo" de PHP tendremos que ponerlo en un div o contenedor
+es decir, el "echo" debe ser el contenido de una etiqueta con clase para luego ser modificada
+por el css, sin embargo no podemos usar al echo o a las llaves php y asignarles clases.
+
+5.<?php ?> no funcionan para asignarles estilos a los componentes, debemos guardar todo dentro
+de un contenedor html el cuál será editado con css.
